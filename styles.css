@@ -1,0 +1,66 @@
+html, body{
+    margin:0;
+}
+
+body{
+background-image: url("imgs/green-fruits.jpg");
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+  font-size:1.5rem;
+}
+
+h3{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.header-row{
+/*  background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url('imgs/green-fruits.jpg');*/
+
+  text-align: center;
+  padding: 7% 0;
+}
+
+.body-row{
+  padding: 5% 20%;
+  background-color: #F4F7EE;
+  margin: 0 10% 10% 10%;
+  border-radius: 40px;
+}
+
+.weekday-row:hover{
+ cursor: pointer;
+ background-color: white;
+ border-radius: 30px;
+}
+
+.weekday-text{
+  padding: 10%;
+  margin-top: 18%;
+  transition: 0.2s;
+}
+
+
+
+.icon{
+  width: 40%;
+  display: block;
+  margin: 28%;
+  padding: 7%;
+  background-color: white;
+  border-radius: 20px;
+  transition: 0.2s;
+}
